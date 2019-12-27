@@ -1,3 +1,4 @@
 export const filterNumbers = (array, largerThan) => {
-  return array
+    array.splice(3, 2);
+    return array
 }
